@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Explorer - Discover Beautiful Places</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Perbaikan Pertama: Ganti script kit fontawesome dengan CDN CSS saya mencaritau terlebih dahulu melalui Internet untuk memahami bagian ini -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -14,19 +15,19 @@
             <nav>
                 <div class="menu-toggle">☰</div>
                 <ul id="nav-menu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li class="dropdown">
-                        <a href="#"> Rute Angkutan▾</a>
+                        <a href="#">Rute Angkutan▾</a>
                         <div class="dropdown-content">
-                            <a href="#">Balige->Siantar</a>
-                            <a href="#">Siantar->Medan</a>
-                            <a href="#">Balige->Tarutung</a>
-                            <a href="#">Medan->Balige</a>
+                            <a href="balige-siantar.html">Balige→Siantar</a>
+                            <a href="siantar-medan.html">Siantar→Medan</a>
+                            <a href="balige-tarutung.html">Balige→Tarutung</a>
+                            <a href="medan-balige.html">Medan→Balige</a>
                         </div>
                     </li>
-                    <li><a href="#">Jalan Jalan</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="jalan-jalan.html">Jalan Jalan</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,16 +70,15 @@
             </div>
         </div>
 
-        <!-- aside sekarang langsung berada di dalam main -->
         <aside>
             <div class="profile-card">
                 <img src="assets/Empty Profile Icon.jpg" alt="Profile Photo" class="profile-img">
                 <h3>About Me</h3>
                 <p>Saya Andre Christian Saragih, Mahasiswa Informatika</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             
@@ -86,15 +86,15 @@
                 <h3>Popular Posts</h3>
                 <div class="post-item">
                     <img src="assets/tOBA.jpg" alt="Toba">
-                    <a href="#">10 Hidden Gems di TOBA</a>
+                    <a href="toba.html">10 Hidden Gems di TOBA</a>
                 </div>
                 <div class="post-item">
                     <img src="assets/Siantar.jpg" alt="Siantar">
-                    <a href="#">jangan lupa datangi tempat ini kalo ke Siantar</a>
+                    <a href="siantar.html">Jangan lupa datangi tempat ini kalau ke Siantar</a>
                 </div>
                 <div class="post-item">
                     <img src="assets/Pematang Raya.jpg" alt="Mardalani Hu Raya">
-                    <a href="#">Tempat menarik di Raya</a>
+                    <a href="raya.html">Tempat menarik di Raya</a>
                 </div>
             </div>
             
@@ -120,10 +120,10 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Jabu</a></li>
-                    <li><a href="#">Pardalanan</a></li>
-                    <li><a href="#">Etah Melalak</a></li>
-                    <li><a href="#">Halak Hita</a></li>
+                    <li><a href="jabu">Jabu</a></li>
+                    <li><a href="pardalanan">Pardalanan</a></li>
+                    <li><a href="melalak">Etah Melalak</a></li>
+                    <li><a href="halak-hita">Halak Hita</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -140,7 +140,6 @@
         </div>
     </footer>
 
-    <!-- script.js sudah saya dipindah ke bawah Terimakasih kak -->
     <script src="script.js"></script>
 </body>
 </html>
